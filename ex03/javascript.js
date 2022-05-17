@@ -23,7 +23,7 @@ function calc() {
         }
     } else {
         res.innerHTML = `Contando:<br>`
-        for (; n2 <= n1; n1 -= n3) {
+        for (; n2 <= n1; n1 += n3) {
             res.innerHTML += `-> ${n1}`
         }
     }
