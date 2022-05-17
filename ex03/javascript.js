@@ -13,12 +13,17 @@ function calc() {
         alert('[ERRO!] Passo com valor inválido, valor será reajustado para 1.')
         n3 = 1
         res.innerHTML = `Contando:<br>`
-        for (n1; n1 <= n2; n1 += n3) {
+        for (; n1 <= n2; n1 += n3) {
             res.innerHTML += `-> ${n1}`
         }
     } else if (n2 < n1) {
         res.innerHTML = `Contando:<br>`
-        for (n1; n2 <= n1; n1 -= n3) {
+        for (; n2 <= n1; n1 -= n3) {
+            res.innerHTML += `-> ${n1}`
+        }
+    } else {
+        res.innerHTML = `Contando:<br>`
+        for (; n2 <= n1; n1 -= n3) {
             res.innerHTML += `-> ${n1}`
         }
     }
