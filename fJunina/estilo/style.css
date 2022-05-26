@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #fdd6ba;
+    background-image: linear-gradient(to bottom,white,  #E5C687, #934B00);
 }
 
 header {
@@ -25,6 +25,7 @@ header>h1 {
 }
 
 main {
+    position: relative;
     background: white;
     min-width: 300px;
     max-width: 800px;
@@ -94,7 +95,7 @@ div h3 {
 }
 
 footer {
-    background: #994636;
+    background: #000000;
     color: white;
     text-align: center;
     padding: 10px;
@@ -109,4 +110,8 @@ footer > a {
 
 footer > a:hover {
     font-weight: bold;
+}
+
+footer > a:active{
+    text-decoration: none;
 }
