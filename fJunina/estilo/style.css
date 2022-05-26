@@ -19,10 +19,9 @@ header {
     background-attachment: fixed;
 }
 
-header > h1 {
-    position: absolute;
-    top: 40%;
-    left: 40%;
+header>h1 {
+    text-align: center;
+    padding-top: 225px;
 }
 
 main {
@@ -51,6 +50,37 @@ section ul {
     list-style-position: inside;
     text-align: left;
     padding-left: 35px;
+}
+
+div h3 {
+    font-size: 0.7em;
+    text-align: center;
+    max-width: 300px;
+}
+
+#container {
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#absolute {
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+}
+
+#img-galery {
+    max-width: 300px;
+}
+
+#img-galery:hover {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.363);
 }
 
 #video {
