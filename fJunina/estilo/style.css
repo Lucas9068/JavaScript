@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fdd6ba;
+}
+
+header {
+    position: relative;
+    background-image: url("../imagens/closeup-shot-of-a-black-pin-on-the-brazil-country-on-the-map.jpg");
+    background-color: #B4654A;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header > h1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+main {
+    position: relative;
+    background: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+}
+
+section h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+section p {
+    padding: 10px 20px 0px 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+section ul {
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 35px;
+}
+
+#video {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#video h3 {
+    margin: 10px;
+    padding: 5px;
+}
+
+footer {
+    background: #994636;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
