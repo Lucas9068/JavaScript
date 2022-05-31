@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom,white,  #E5C687, #934B00);
+    background-image: linear-gradient(to bottom, white, #E5C687, #934B00);
 }
 
 header {
@@ -31,8 +31,24 @@ main {
     max-width: 800px;
     margin: auto;
     margin-top: -50px;
+    padding-bottom: 25px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+}
+
+blockquote {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+blockquote a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000000;
+}
+
+blockquote a:hover {
+    font-weight: bold;
 }
 
 section h2 {
@@ -75,12 +91,14 @@ div h3 {
 
 #img-galery {
     max-width: 300px;
+    max-height: 180px;
 }
 
 #img-galery:hover {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.363);
+    max-height: 180px;
 }
 
 #video {
@@ -92,6 +110,7 @@ div h3 {
 #video h3 {
     margin: 10px;
     padding: 5px;
+    text-align: center;
 }
 
 footer {
@@ -102,16 +121,16 @@ footer {
     margin-top: 30px;
 }
 
-footer > a {
+footer>a {
     text-decoration: none;
     padding: 20px;
     color: white;
 }
 
-footer > a:hover {
+footer>a:hover {
     font-weight: bold;
 }
 
-footer > a:active{
+footer>a:active {
     text-decoration: none;
 }
