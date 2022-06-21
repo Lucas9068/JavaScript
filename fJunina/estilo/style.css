@@ -97,20 +97,28 @@ div h3 {
 
 #absolute {
     width: 300px;
-    height: 180px;
+    height: 200px;
     padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+#absolute img {
+    margin-top: 5px;
 }
 
 #img-galery {
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.363);
     max-width: 300px;
-    max-height: 180px;
+    max-height: 200px;
 }
 
 #img-galery:hover {
-    padding: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.363);
-    max-height: 180px;
+    max-height: 200px;
+    margin: 10px;
 }
 
 #video {
